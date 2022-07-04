@@ -1,12 +1,16 @@
+.text-size{
+    font-size: 25px;
+}
+
+
 .container{
-    max-width: 1100px;
+    max-width: 1300px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0;
 }
 
 .flex{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items:center;
     height: 100%;
 }

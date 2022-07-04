@@ -34,14 +34,12 @@ a{
 }
 
 .navbar ul{
-    display: flex;
-    justify-content: right; 
-    margin-right: 100px;
+    justify-content:flex-end; 
+    margin-left: 700px;
 }
 a{
     font-size: 10px;
-    padding:5px 10px;
-    margin: 5px 0;
+    padding:0 10px;
     font-weight:bold;
     color: rgb(81, 79, 79);
 }
@@ -58,15 +56,22 @@ a:hover{
 
 /*Navbar Main */
 
-.navbar-main{
+.navbar-main .flex{
     height: 55px;
-    background-color: aquamarine;
+    background-color:#fff;
+    justify-content: space-around;
 }
 
 .navbar-main nav,ul{
     display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-main a{
+    font-size: 14px;
 }
 
 .navbar-main .airtel-red{
-    width: 80px;
+    width: 90px;
 }
