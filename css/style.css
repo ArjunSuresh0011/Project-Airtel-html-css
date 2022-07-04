@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,400,600,700&display=swap);
 
 *{
     box-sizing: border-box;
@@ -7,9 +7,10 @@
 }
 
 body{
-    font-family: 'Lato',sans-serif;
-    color: #333;
+    font-family: Nunito,sans-serif;
+    color:#393939;
     line-height: 1.6;
+    background-color:#fff;
 }
 
 /*upper head */
@@ -23,12 +24,16 @@ a{
     text-decoration: none;
     color: #333;
 }
-
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 1px;
+    left: 1px;
+}
 .navbar{
     background-color: rgb(245, 245, 245);
     color: #333;
     height:25px;
-    position: sticky;
     text-align: center;
     line-height: 20px;
 }
@@ -40,13 +45,12 @@ a{
 a{
     font-size: 10px;
     padding:0 10px;
-    font-weight:bold;
+    font: weight 300;
     color: rgb(81, 79, 79);
 }
 a:hover{
     color: black;
     font-weight: bolder;
-    font-size: 11px;
 }
 .personal{
     font-size: 11px;
@@ -55,7 +59,10 @@ a:hover{
 }
 
 /*Navbar Main */
-
+.navbar-main{
+    position: sticky;
+    top: 22px;
+}
 .navbar-main .flex{
     height: 55px;
     background-color:#fff;
@@ -70,8 +77,21 @@ a:hover{
 
 .navbar-main a{
     font-size: 14px;
+    font-weight: bold ;
 }
 
 .navbar-main .airtel-red{
     width: 90px;
 }
+.nav-icons > div,h4{
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-icons > div{
+    align-items: center;
+    padding: 10px;
+}
+
+
