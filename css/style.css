@@ -29,17 +29,18 @@ a{
     color: #333;
     height:25px;
     position: sticky;
+    text-align: center;
+    line-height: 20px;
 }
 
 .navbar ul{
     display: flex;
-    justify-content: right;
+    justify-content: right; 
     margin-right: 100px;
 }
 a{
     font-size: 10px;
     padding:5px 10px;
-    text-align: center;
     margin: 5px 0;
     font-weight:bold;
     color: rgb(81, 79, 79);
@@ -57,21 +58,15 @@ a:hover{
 
 /*Navbar Main */
 
-ul{
-    list-style-type: none;
-}
-
 .navbar-main{
-    height: 30px;
-
+    height: 55px;
+    background-color: aquamarine;
 }
 
-.navbar-main nav{
-    display: flex;
-    
-}
-.navbar-main ul{
-    display: flex;
-    
+.navbar-main nav,ul{
+    display:flex;
 }
 
+.navbar-main .airtel-red{
+    width: 80px;
+}
