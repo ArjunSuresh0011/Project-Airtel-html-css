@@ -40,13 +40,13 @@ a{
     justify-content:flex-end; 
     margin-left: 700px;
 }
-a{
+.navbar a{
     font-size: 10px;
     padding:0 10px;
     font: weight 300;
     color: rgb(81, 79, 79);
 }
-a:hover{
+.navbar a:hover{
     color: black;
     font-weight: bolder;
 }
@@ -78,7 +78,8 @@ a:hover{
 
 .navbar-main a{
     font-size: 14px;
-    font-weight: bold ;
+    font-weight: bold;
+    padding:0 10px;
 }
 
 .navbar-main .airtel-red{
@@ -96,6 +97,26 @@ a:hover{
 }
 
 
+/*Hoverable dropdown on elements*/
+
+.dropdown a:hover{
+    color: red;
+}
+.dropdown:hover .dropdown-content{ 
+    display: block;
+}
+.dropdown-content{
+    padding: 4px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.dropdown-content ul{
+    display: flex;
+    text-align: center;
+}
+
+
 /*Hoverable drop down*/
 
 .dropdown{
@@ -105,5 +126,4 @@ a:hover{
 .dropdown-content{
     display: none;
     position: absolute;
-    
 }
