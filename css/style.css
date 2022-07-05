@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: Nunito,sans-serif;
+    font-family: 'Nunito',sans-serif;
     color:#393939;
     line-height: 1.6;
     background-color:#fff;
@@ -65,7 +65,7 @@ a{
     left: 1px;
 }
 .navbar-main .flex{
-    height: 55px;
+    height: 67.2px;
     background-color:chartreuse;
     justify-content: space-around;
 }
@@ -90,6 +90,7 @@ a{
     font-weight: bolder;
     text-align: center;
     cursor: pointer;
+    line-height: .93;
 }
 .nav-icons > div{
     align-items: center;
@@ -99,23 +100,34 @@ a{
 
 /*Hoverable dropdown on elements*/
 
-.dropdown a:hover{
-    color: red;
-}
 .dropdown:hover .dropdown-content{ 
     display: block;
-}
-.dropdown li:hover{
-    border-bottom: 2px solid red;
 }
 
 .dropdown ul{
     flex-wrap: wrap;
+    justify-content: start;
 }
 .dropdown-content li{
-    font-size: 10px;
-    text-align: center;
-    padding: 2px;
+    width: 230px;
+    font-size: 14px;
+    font-family: 'Nunito',sans-serif;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.dropdown-content li:hover{
+    background-color: rgba(0,0,0,0.2);
+    color: red;
+}
+
+.prepaid-div-navbar-main{
+    height: 67.2px;
+    padding-top: 20px;
+    align-items: center;
+}
+.prepaid-div-navbar-main:hover{
+    border-bottom: 2px solid red;
 }
 
 
@@ -129,7 +141,7 @@ a{
     display: none;
     position: absolute;
     background-color:bisque;
-    min-width: 160px;
+    min-width: 230px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
-    padding: 12px 16px;
+    align-items: center;
 }
