@@ -25,13 +25,11 @@ a{
     color: #333;
 }
 .navbar{
-    position: fixed;
-    top: 0;
-    right: 1px;
-    left: 1px;
+    position: sticky;
+    top: 0px;
 }
 .navbar{
-    background-color: rgb(245, 245, 245);
+    background-color:aqua;
     color: #333;
     height:25px;
     text-align: center;
@@ -59,9 +57,12 @@ a:hover{
 }
 
 /*Navbar Main */
+
 .navbar-main{
-    position: sticky;
+    position: fixed;
     top: 22px;
+    right: 1px;
+    left: 1px;
 }
 .navbar-main .flex{
     height: 55px;
@@ -95,3 +96,14 @@ a:hover{
 }
 
 
+/*Hoverable drop down*/
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    
+}
