@@ -163,15 +163,23 @@ a{
 
 /*Sliding Banner*/
 
-.slide-main{
-    background-color: #393939;
-    display: flex;
-    position: absolute;
-    top: 20%;
+.slider{
+    background-color:#fff;
+    position: relative;
     z-index: -1;
+    height:100%;
 }
-.slide-container{
-    animation: leftSlider 20s infinite;
+.slider figure{
+    display: flex;
+    margin: 0;
+    left: 0;
+    animation: leftSlider 10s infinite ease-in;
+    height: 100%;
+}
+.slider figure img{
+    margin-top: 20px;
+    width: 600%;
+    height: 100%;
 }
 
 
@@ -188,3 +196,28 @@ a{
   }
 
 
+/*Slider Animation*/
+
+@keyframes leftSlider{
+
+    0%{
+        transform: translateX(0%);
+    }
+    20%{
+        transform: translateX(100%);
+    }
+    40%{
+        transform: translateX(200%);
+    }
+    60%{
+        transform: translateX(300%);
+    }
+    80%{
+        transform: translateX(400%);
+    }
+    100%{
+        transform: translateX(500%);
+    }
+
+    
+}
