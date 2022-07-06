@@ -163,25 +163,12 @@ a{
 
 /*Sliding Banner*/
 
-.slider{
-    background-color:#fff;
-    position: relative;
-    z-index: -1;
-    height:100%;
-}
-.slider figure{
-    display: flex;
-    margin: 0;
-    left: 0;
-    animation: leftSlider 10s infinite ease-in;
-    height: 100%;
-}
-.slider figure img{
+.slide-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1600px;
     margin-top: 20px;
-    width: 600%;
-    height: 100%;
 }
-
 
 
 /* Hoverable dropdown animation*/
@@ -201,22 +188,22 @@ a{
 @keyframes leftSlider{
 
     0%{
-        transform: translateX(0%);
+        left: 0;
     }
     20%{
-        transform: translateX(100%);
+        left: 0;
     }
-    40%{
-        transform: translateX(200%);
+    25%{
+        left: -100%;
     }
-    60%{
-        transform: translateX(300%);
+    45%{
+        left: -100%;
     }
-    80%{
-        transform: translateX(400%);
+    50%{
+        left: -200%;
     }
-    100%{
-        transform: translateX(500%);
+    70%{
+        left: -200%;
     }
 
     
