@@ -151,12 +151,24 @@ a{
 .dropdown-content{
     display: none;
     position: absolute;
+    left: -20px; ;
     background-color:#fff;
     min-width: 220px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    box-shadow: 5px 10px 20px  rgba(0,0,0,0.4);
     align-items: center;
     z-index: 1;
-    
+    animation: slideInFromBottom 0.2s ease;
 }
+
+
+
+@keyframes slideInFromBottom{
+    0%{
+      transform: translateY(10%);
+    }
+    100%{
+      transform: translateY(0%);
+    }
+  }
 
 
