@@ -161,6 +161,22 @@ a{
 }
 
 
+/*Sliding Banner*/
+
+.slide-main{
+    background-color: #393939;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+}
+.slide-container{
+    animation: leftSlider 20s infinite;
+}
+
+
+
+/* Hoverable dropdown animation*/
 
 @keyframes slideInFromBottom{
     0%{
