@@ -63,6 +63,7 @@ a{
     top: 22px;
     right: 1px;
     left: 1px;
+    box-shadow: 5px 2px 0 rgba(0,0,0,0.2);
 }
 .navbar-main .flex{
     height: 67.2px;
@@ -163,12 +164,40 @@ a{
 
 /*Sliding Banner*/
 
-.slide-frame{
+.slider{
+    border-top: 2px solid #333;
+    background-color:#fff;
+    position: relative;
+    z-index: -1;
+    height:100%;
+    align-items: center;
     overflow: hidden;
-    height: 800px;
-    width: 1600px;
-    margin-top: 20px;
 }
+.slider figure{
+    display: flex;
+    margin: 0;
+    left: 0;
+    animation: leftSlider 15s infinite ease-out;
+    height: 100%;
+}
+.slider figure img{
+    width: 1600px;
+    height: 400px;
+    padding-top: 50px;
+}
+
+/*After slide*/
+
+.after-slider{
+    background-color: red;
+    color: #fff;
+}
+
+
+
+
+
+
 
 
 /* Hoverable dropdown animation*/
@@ -188,23 +217,37 @@ a{
 @keyframes leftSlider{
 
     0%{
-        left: 0;
+        transform: translateX(-20%);
+    }
+    10%{
+        transform: translateX(-20%);
     }
     20%{
-        left: 0;
+        transform: translateX(-135%);
     }
-    25%{
-        left: -100%;
-    }
-    45%{
-        left: -100%;
+    40%{
+        transform: translateX(-135%);
     }
     50%{
-        left: -200%;
+        transform: translateX(-260%);
+    }
+    60%{
+        transform: translateX(-260%);
     }
     70%{
-        left: -200%;
+        transform: translateX(-390%);
     }
-
+    80%{
+        transform: translateX(-390%);
+    }
+    90%{
+        transform: translateX(-520%);
+    }
+    95%{
+        transform: translateX(-520%);
+    }
+    100%{
+        transform: translateX(-20%);
+    }
     
 }
