@@ -29,7 +29,7 @@ a{
     top: 0px;
 }
 .navbar{
-    background-color:aqua;
+    background-color:#f5F5F5;
     color: #333;
     height:25px;
     text-align: center;
@@ -66,7 +66,7 @@ a{
 }
 .navbar-main .flex{
     height: 67.2px;
-    background-color:chartreuse;
+    background-color:#fff;
     justify-content: space-around;
 }
 
@@ -105,7 +105,6 @@ a{
 /*Hoverable dropdown on elements*/
 
 
-
 .dropdown:hover .dropdown-content{ 
     display: block;
 }
@@ -121,9 +120,10 @@ a{
     padding-top: 10px;
     padding-left: 30px;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 .dropdown-content li:hover{
-    background-color: rgba(83, 57, 57, 0.1);
+    background-color: rgba(158, 148, 148, 0.2);
     color: red;
 }
 
@@ -132,6 +132,13 @@ a{
     padding-top: 20px;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+}
+.prepaid-div-navbar-main:hover{
+    border-bottom: 3px solid red;
+}
+.prepaid-div-navbar-main:hover a{
+    color: red;
 }
 
 /*Hoverable drop down*/
@@ -145,7 +152,9 @@ a{
     display: none;
     position: absolute;
     background-color:#fff;
-    min-width: 230px;
+    min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
     align-items: center;
+    z-index: 1;
+    
 }
