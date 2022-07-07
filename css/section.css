@@ -97,7 +97,7 @@
     margin-top: 50px;
     padding: 20px 60px;
     border-radius: 40px;
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#840303), color-stop(40%,#8c0404), color-stop(100%,#450101));
+    background: -webkit-gradient(linear, left bottom, right bottom, color-stop(0%,#5f0101), color-stop(40%,#8c0404), color-stop(100%,#450101));
     color: #FFFFFF;
     border: none;
     box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
