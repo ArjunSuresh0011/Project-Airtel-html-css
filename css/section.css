@@ -49,7 +49,7 @@
     height: 100%;
     padding:20px 0px 0px 0px;
     border-radius: 5px;
-    transition: .1s ease;
+    transition: transform 0.1s ease;
 }
 .service:hover{
     cursor: pointer;
@@ -100,22 +100,24 @@
     margin-top: 50px;
     padding: 21.5px 70px;
     border-radius: 40px;
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#650202), color-stop(40%,#6d0303), color-stop(100%,#450101));
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#650202), color-stop(40%,#6d0808), color-stop(100%,#450101));
     color: #FFFFFF;
     border: none;
     box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
 }
 
 
-/*right division*/
+/*right content*/
 
 .airtel-black-content .right-content img{
-    padding-top:40px;
+    padding-top:50px;
 }
 
 
 /*Postpaid-section*/
-
+.postpaid-section{
+    background-color: #fff;
+}
 
 .postpaid-section .postpaid-article{
     display: grid;
@@ -138,9 +140,84 @@
 .postpaid-left-content h2{
     color: black;
     padding-top: 30px;
-    font-size: 1.8em;
+    font-size: 24px;
     font-weight: 600;
 }
+.postpaid-left-content h2 span{
+    color: red;
+}
 .postpaid-left-content p{
+    padding: 5px 0px 0px 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.postpaid-left-content .choose{
+    font-size: 0.9em;
+    font-weight: 400;
+    padding-top: 40px;
+
+}
+.postpaid-left-content h4{
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+.postpaid-left-content .postpaid-plans{
+    display: flex;
+    padding-top: 30px;
+}
+.postpaid-plans > div{
+    transition: transform 0.1s ease;
+}
+.postpaid-plans > div:hover{
+    transform: scale(1.04,1.04);
+    cursor: pointer;
+}
+
+.postpaid-left-content .postpaid-plans .nine-nine-nine{
+    padding: 10px 30px;
+}
+.postpaid-plans p{
+    font-size: 0.7em;
+    font-weight: 400;
+}
+.postpaid-plans h3{
+    font-size: 34px;
+    font-weight: 500;
+    color: #393939;
+}
+.postpaid-plans h4{
+    color: red;
+    font-size: 18px;
+}
+.postpaid-left-content .postpaid-plans .four-nine-nine{
+    padding: 15px 30px;
+    margin-left: 20px;
+    align-items: center;
+}
+.postpaid-left-content .postpaid-plans .view-more{
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+.view-more h4{
+    padding-top: 50px;
+    font-weight: 600;
+}
+.postpaid-left-content .postpaid-plans .view-more img{
+   width:25px;
+}
+
+.postpaid-article .postpaid-right-content img{
+    padding-right: 100px;
+}
+
+/*Port to Airtel section*/
+
+.section-port-airtel{
+    background-image: linear-gradient(100deg, #b00, #8d0000),
+    linear-gradient(100deg, #8aaebb, #89adba);
+}
+.section-port-airtel{
     
 }
