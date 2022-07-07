@@ -7,7 +7,7 @@
 .experience-our-services{
     height: auto;
     padding: 30px 30px 0px 0px;
-    background-color: #f2f4f5;
+    background-color: #F2F4F5;
     font-weight: 300;
 }
 .experience-our-services h4{
@@ -44,15 +44,16 @@
     width: 50px;
 }
 .service{
-    background-color: #fff;
+    background-color: #FFFFFF;
     box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
     height: 100%;
     padding:20px 0px 0px 0px;
     border-radius: 5px;
+    transition: .1s ease;
 }
 .service:hover{
     cursor: pointer;
-    transform: scale(1.05 ,1.05)
+    transform: scale(1.05 ,1.05);
 }
 .service img{
     width: 30px;
