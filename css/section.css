@@ -112,3 +112,35 @@
 .airtel-black-content .right-content img{
     padding-top:40px;
 }
+
+
+/*Postpaid-section*/
+
+
+.postpaid-section .postpaid-article{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.postpaid-article .postpaid-left-content{
+    padding: 20px;
+    margin-left: 70px;
+}
+.postpaid-left-content h6{
+    font-size: 1.2em;
+    color: black;
+    font-weight:500;
+    padding-top: 25px;
+}
+.postpaid-left-content h6 span{
+    border-bottom: 4px solid rgb(209, 5, 5);
+    border-radius: 2.1px;
+}
+.postpaid-left-content h2{
+    color: black;
+    padding-top: 30px;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.postpaid-left-content p{
+    
+}
