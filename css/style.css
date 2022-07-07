@@ -166,6 +166,45 @@ a{
 
 /*Sliding Banner*/
 
+.button-boy-1{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    width: auto;
+    z-index: 9;
+   
+}
+.button-boy-2{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    right: 60px;
+    width: auto;
+    z-index: 9;
+   
+}
+
+.button-boy-1 button{
+    border-radius: 50%;
+    width: 49px;
+    height: 49px;
+    background-color: #fff;
+    color: red;
+    border: none;
+}
+.button-boy-2 button{
+    border-radius: 50%;
+    width: 49px;
+    height: 49px;
+    background-color: #fff;
+    color: red;
+    border: none;
+}
+button i{
+    font-size: 35px;
+}
+
 .slider{
     border-top: 2px solid #333;
     background-color:#fff;
