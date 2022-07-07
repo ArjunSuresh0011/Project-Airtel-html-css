@@ -189,15 +189,79 @@ a{
 /*After slide*/
 
 .after-slider{
-    background-color: red;
+    display: flex;
+    background-color: rgb(157, 9, 9);
     color: #fff;
+    height: 165px;
+    align-items: center;
+}
+.recharge-headding h4{
+    font-size: 24px;
+    padding: 10px 0px 0px;
+    text-align: left;
+}
+.recharge-headding p{
+    font-size: 18px;
+    padding: 10px 0px 0px;
 }
 
+.recharge-right{
+    padding-left: 400px;
+    justify-content: end;
+    position: relative;
+    top: 2px;
+    right: 30px;
+}
+.recharge-right ul{
+    list-style-type: none;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.recharge-right ul > div{
+    display: flex;
+    border: 1px solid black;
+    height: 40px;
+    width: auto;
+    padding: 10px 20px;
+    margin-right: 15px;
+    align-items: center;
+}
+.recharge-right img{
+    width: 20px;
+}
+.recharge-right ul li{
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+}
 
-
-
-
-
+.form{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin-right: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.form input{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+}
+.form input:focus{
+    outline: none;
+}
+.form button{
+    height: 30px;
+    padding:0px 20px;
+    align-items: center;
+    margin: 8px 6px;
+    border-radius: 6px;
+    background-color: rgb(157, 9, 9);
+    color: #fff;
+}
 
 
 /* Hoverable dropdown animation*/
