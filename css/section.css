@@ -6,14 +6,16 @@
 
 .experience-our-services{
     height: auto;
-    padding: 35px 30px 0px 0px;
+    padding: 30px 30px 0px 0px;
     background-color: #f2f4f5;
+    font-weight: 300;
 }
 .experience-our-services h4{
     font-size: 34px;
     color: #000000;
     margin: 0px 70px 0px 20px;
     padding-right: 550px;
+    font-weight: 600;
 }
 .service-cards{
     display: grid;
@@ -21,15 +23,38 @@
     gap: 15px 15px;
     margin: 35px 119.2px;
     padding-left: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     padding-top: 15px;
 }
+.service p{
+    color: rgb(18, 18, 18);
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.service .payment-bank-img{
+    background-color: rgb(189, 181, 181);
+    border-radius: 50%;
+    color: #fff;
+    filter: grayscale(1) invert(1);
+}
+.service .airtel-black{
+    width: 50px;
+}
 .service{
-    background-color: #ffffff;
-    box-shadow: 0px 0px 0 rgba(0,0,0,0.7);
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
     height: 100%;
-    padding: 10px;
+    padding:20px 0px 0px 0px;
+    border-radius: 5px;
+}
+.service:hover{
+    cursor: pointer;
+    transform: scale(1.05 ,1.05)
 }
 .service img{
     width: 30px;
+    margin-left: 15px;
 }
