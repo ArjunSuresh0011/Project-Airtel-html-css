@@ -111,10 +111,14 @@
 
 .airtel-black-content .right-content img{
     padding-top:50px;
+    position: relative;
+    top: 9px;
 }
 
 
 /*Postpaid-section*/
+
+
 .postpaid-section{
     background-color: #fff;
 }
@@ -209,7 +213,10 @@
 }
 
 .postpaid-article .postpaid-right-content img{
+    position: relative;
+    top: 9px;
     padding-right: 100px;
+    padding-top: 70px;
 }
 
 /*Port to Airtel section*/
@@ -269,6 +276,11 @@
     border: none;
     border-radius: 5px;
     background-color: white;
+    transition: background-color 0.5s ease;
+}
+.port-content-right button:hover{
+    background-color: rgb(220, 0, 0);
+    color: #fff;
 }
 
 /*Xstream Section*/
@@ -281,8 +293,9 @@
 
 .xstream-main{
     text-align: center;
-    padding-top: 80px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    padding-top: 0px;
+    box-shadow: 12px 12px 1px rgba(0,0,0,0.1);
+    
 }
 
 .xstream-main img{
@@ -305,7 +318,7 @@
     text-align: center;
     border-radius: 10px;
     position: relative;
-    bottom: 120px;
+    bottom: 130px;
     left: 80px;
     box-shadow: 1px 2px 20px rgba(0,0,0,0.2);
     
@@ -314,7 +327,7 @@
     font-size: 14px;
 }
 .xstream-cards button{
-    padding:10px 100px;
+    padding:14px 24px;
     color: #fff;
     background-color: red;
     border: none;
@@ -322,6 +335,96 @@
     transition: background-color 0.5s ease-in;
     cursor: pointer;
 }
+.xstream-cards button p{
+    font-size: 14px;
+    padding: 0px 80px;
+}
 .xstream-cards button:hover{
     background-color: #393939;
+}
+
+/*Unlimited Internet section*/
+
+.unlimited-section{
+    background-image: linear-gradient(100deg, #b00, #8d0000),
+    linear-gradient(100deg, #8aaebb, #89adba);
+}
+.unlimited-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.unlimited-left-content{
+    margin-top: 40px;
+    
+    padding-top: 50px;
+}
+.unlimited-left-content h6 {
+    font-size: 24px;
+}
+.unlimited-left-content h6 span{
+    border-bottom: 4px solid #fff;
+    border-radius: 2px;
+}
+.unlimited-left-content h2{
+    font-size: 34px;
+    padding-top: 40px;
+}
+.unlimited-left-content p{
+    font-size: 18px;
+}
+.unlimited-left-content button{
+    padding: 14px 24px;
+    color: red;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+.unlimited-left-content button:hover{
+    background-color: rgb(226, 12, 12);
+    color: white;
+}
+.unlimited-left-content .iuc{
+    font-size: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.unlimited-right-content img{
+    position: relative;
+    top: 50px;
+}
+
+/*sECTION WYNK */
+
+.section-wynk{
+    background-color: #cabdb3;
+}
+.wynk-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 150px;
+}
+.right-wynk-content{
+    
+}
+.right-wynk-content h3{
+    font-size: 22px;
+    font-weight: 400;
+}
+.right-wynk-content h4{
+    font-size: 34px;
+    font-weight: 500;
+    padding-top: 30px;
+    text-align: left;
+}
+.right-wynk-content p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+.right-wynk-content button{
+    padding: 14px 24px;
 }
