@@ -143,6 +143,13 @@ a{
 .prepaid-div-navbar-main:hover a{
     color: red;
 }
+.prepaid-div-navbar-main i{
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+.prepaid-div-navbar-main:hover i{
+    transform: rotate(-180deg);
+}
 
 /*Hoverable drop down*/
 
