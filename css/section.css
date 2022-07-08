@@ -240,3 +240,32 @@
 }
 
 /*right*/
+
+.port-content-right{
+    margin-left: 211px;
+    color: #FFFFFF;
+}
+.port-content-right h4{
+    padding-top: 100px;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.port-content-right h4 span{
+    border-bottom: 4px solid #fff;
+    border-radius: 2px;
+}
+.port-content-right h2{
+    padding-top: 35px;
+    font-size: 34px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.port-content-right button{
+    padding:14px 20px ;
+    margin-top: 0px 0px 20px;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
