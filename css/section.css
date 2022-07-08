@@ -229,6 +229,7 @@
    margin-left: 100px;
    background-color: #fff;
    margin-top: 30px;
+   margin-bottom: 30px;
 }
 .port-airtel-content .port-content-left img{
     border: 2px solid red;
@@ -269,3 +270,25 @@
     border-radius: 5px;
     background-color: white;
 }
+
+/*Xstream Section*/
+.section-xstream{
+    padding-top: 35px;
+    background-color: #fff;
+}
+
+.xstream-main{
+    text-align: center;
+    padding-top: 80px;
+}
+.xstream-main:first-child{
+    padding-left: 250px;
+}
+.xstream-main img{
+    padding-left: 300px;
+}
+.xstream-main h2{
+    font-size: 34px;
+    font-weight: 600;
+}
+
