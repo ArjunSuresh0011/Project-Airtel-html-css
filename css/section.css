@@ -463,9 +463,6 @@
     grid-template-columns: 1fr 2fr;
     padding: 10px;
 }
-.left-thanks-content{
-    
-}
 .left-thanks-content img{
     padding: 90px 0px 20px 200px;
 }
@@ -510,4 +507,21 @@
 }
 .right-thanks-content .play:hover{
     transform: scale(1.040);
+}
+
+/*Footer section*/
+
+.left{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.left div{
+    width: 200px;
+    height: 200px;
+    background-color: #450101;
+    margin: 10px;
+}
+.left div ul{
+    flex-direction: column;
 }
