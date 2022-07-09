@@ -104,6 +104,7 @@
     color: #FFFFFF;
     border: none;
     box-shadow: 5px 5px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
 }
 
 
@@ -277,6 +278,7 @@
     border-radius: 5px;
     background-color: white;
     transition: background-color 0.5s ease;
+    cursor: pointer;
 }
 .port-content-right button:hover{
     background-color: rgb(220, 0, 0);
@@ -386,6 +388,7 @@
     border: none;
     border-radius: 10px;
     transition: background-color 0.5s ease;
+    cursor: pointer;
 }
 .unlimited-left-content button:hover{
     background-color: rgb(226, 12, 12);
@@ -446,6 +449,7 @@
     color: red;
     border-radius: 5px;
     transition: background-color 0.5s ease;
+    cursor: pointer;
 }
 .right-wynk-content button:hover{
     background-color: rgb(209, 5, 5);
@@ -504,9 +508,11 @@
 }
 .right-thanks-content .apple:hover{
     transform: scale(1.040);
+    cursor: pointer;
 }
 .right-thanks-content .play:hover{
     transform: scale(1.040);
+    cursor: pointer;
 }
 
 /*Footer section*/
@@ -523,7 +529,7 @@
 
 }
 .left div{
-    margin-right: 70px;
+    margin-right: 30px;
     background-color: #fff;
     padding: 0px 20px 100px 20px;
     
@@ -579,4 +585,12 @@
 .right img:hover{
     filter: grayscale(0);
     cursor: pointer;
+}
+
+.bottom-footer ul{
+    flex-direction: row;
+}
+.bottom-footer ul li{
+    font-size: 16px;
+    padding-left: 10px;
 }
