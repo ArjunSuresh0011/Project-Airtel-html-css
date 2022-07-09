@@ -521,18 +521,23 @@
 }
 .footer-container{
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding: 80px 0px 0px 100px;
+    gap: 0px 10px;
+    max-width: 200px;
+    
 }
 .left{
     display: flex;
+    max-width: 900px;
 
 }
 .left div{
     margin-right: 30px;
     background-color: #fff;
-    padding: 0px 20px 100px 20px;
-    
+    padding: 0px 20px 10px 20px;
+    background-color: #ffffff;
+    max-height: 350px;
 
 }
 .left div h4{
@@ -547,7 +552,7 @@
 .left div ul li{
     font-size: 12px;
     align-self: start;
-    line-height: 1.9;
+    line-height: 2;
     
 }
 .left div ul li:hover{
@@ -555,42 +560,65 @@
     cursor: pointer;
 }
 
-.right{
+.right-footer{
     background-color: #fff;
-    padding: 0px 30px 100px 0px;
+    background-color:#fff;
+    padding: 30px;
     position: relative;
-    right: 100px;
-    
+    right: 300px;
+    bottom: 30px;
+
 }
-.right button{
+
+.right-footer button{
     margin-left: 20px;
     font-size: 22px;
     border-color: #ffffffff;
     cursor: pointer;
     border: none;
+    background-color: #ffff;
 }
-.right button a{
+.right-footer button a{
     color: red;
-    scroll-behavior: smooth;
+    font-size: 18px;
 }
-.right button i{
+pre{
+  font-family: 'nunito';  
+}
+.right-footer button i{
     font-size: 20px;
 }
-.right img{
+.right-footer img{
     width: 40px;
-    padding-top: 150px;
+    margin-top: 150px;
     padding-left: 5px;
     filter: grayscale(1);
+    padding-right: 10px;
 }
-.right img:hover{
+.right-footer img:hover{
     filter: grayscale(0);
     cursor: pointer;
+}
+.bottom-footer {
+   border-top: 1px solid #393939;
+   padding-top: 20px;
+   padding-bottom: 40px;
 }
 
 .bottom-footer ul{
     flex-direction: row;
 }
 .bottom-footer ul li{
-    font-size: 16px;
-    padding-left: 10px;
+    font-size: 12px;
+    text-align-last: center;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: #393939;
+}
+.bottom-footer ul li:hover{
+    color: red;
+}
+.bottom-footer ul pre{
+    font-family: 'nunito';
 }
